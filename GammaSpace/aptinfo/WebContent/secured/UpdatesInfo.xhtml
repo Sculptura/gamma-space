@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:pe="http://primefaces.org/ui/extensions">
+
+<p:panel responsive="true" resizable="false" widgetVar="vhighbar"
+	style="background:#ededed;width:100%; ">
+	<h:panelGrid style="margin:auto;">
+		<h:outputText value="APT | 28.09.18" style="font-size:32px;" />
+	</h:panelGrid>
+
+	<p:scrollPanel mode="native"
+		style="height:500px;width:100%;margin:auto;background:#ededed;border-width: 1px 0 0 0;">
+
+
+
+		<h:panelGrid>
+
+			<h:outputText style="font-size:14px;font-weight:bold;"
+				value="Modules Menu Overlay : Access from header"></h:outputText>
+
+			<h:outputText value="// as of 22.03.18"
+				style="font-size:10px;font-weight:bold;" />
+			<h:outputText value="Transaction Forms :"
+				style="font-size:14px;font-weight:bold;" />
+			<h:outputText value="responsive pages" />
+			<h:outputText value="Updated to PF6.2, qrgen,barcode4j lib " />
+
+			<h:outputText value="// as of 06.03.18"
+				style="font-size:10px;font-weight:bold;" />
+			<h:outputText value="Sales Process :"
+				style="font-size:14px;font-weight:bold;" />
+			<h:outputText value="Customer,Enquiry,Quotes" />
+
+
+
+			<h:outputText value="Module : Document Manager (new)"
+				style="font-size:14px;font-weight:bold;" />
+			<h:outputText
+				value="Introducing Document manager, an internal file explorer within APTERP.
+			 Upload documents, create folders, link files to employees." />
+
+			<p:spacer height="10"></p:spacer>
+
+
+			<h:outputText value="// prev 27.11.17"
+				style="font-size:10px;font-weight:bold;" />
+
+			<h:outputText value="Menu" style="font-size:14px;font-weight:bold;" />
+			<h:outputText value="Menu Sequence has been changed" />
+
+
+			<h:outputText value="Module : Employee View"
+				style="font-size:14px;font-weight:bold;" />
+			<h:outputText
+				value="Replaced worksheet with Category and Cost Center" />
+
+			<p:spacer height="10"></p:spacer>
+
+
+			<h:outputText value="// prev 15.11.17"
+				style="font-size:10px;font-weight:bold;" />
+
+
+
+			<h:outputText value="Security"
+				style="font-size:14px;font-weight:bold;" />
+			<h:outputText
+				value="Restricted unauthorised access to system resources. All unauthorised requests will be redirected." />
+
+			<p:spacer height="10"></p:spacer>
+
+			<h:outputText value="User Interface"
+				style="font-size:14px;font-weight:bold;" />
+			<h:outputText
+				value="Introducing Quick Access for faster navigation	which can be invoked from anywhere within APTERP for easy and
+				authorised access. Press CTRL + Q to open up Quick Access " />
+
+			<p:spacer height="10"></p:spacer>
+
+			<h:outputText value="Modules"
+				style="font-size:14px;font-weight:bold;" />
+
+
+			<ul>
+				<li>Daily Time Card Details : Total hours splitting Fixed</li>
+				<li>HR Masters: new enabled after save action</li>
+				<li>User Accounts
+					<ul>
+						<li>Accounts abstraction except Admin.</li>
+						<li>Add new User</li>
+						<li>Assign Users with Company,Branch,Financial Period</li>
+					</ul>
+				</li>
+
+
+			</ul>
+
+
+			<p:spacer height="10"></p:spacer>
+
+			<h:outputText value="Under Development"
+				style="font-size:14px;font-weight:bold;" />
+						
+						(This is for dev team. will be removed once live) 
+					<ul>
+				<li>Imported Data</li>
+				<li>Payslip Report 90%</li>
+				<li>Monthly Payroll Report 90%</li>
+				<li>Document Management 45%</li>
+				<li>Calendar Settings</li>
+				<li>Product Licensing</li>
+				<li>Reset logins</li>
+			</ul>
+
+		</h:panelGrid>
+
+	</p:scrollPanel>
+	<p:commandButton value="Back" style="width:100px;border-color:#606060;"></p:commandButton>
+
+</p:panel>
+</html>
